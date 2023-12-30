@@ -12,7 +12,15 @@ const BoardPage = () => {
     const { theme } = useColorScheme();
     return (
         <div className="relative h-[calc(100svh-72px)] overflow-hidden">
-            <Excalidraw theme={theme as Theme} />
+            <Excalidraw
+                initialData={{
+                    appState: {
+                        viewBackgroundColor: '#0000',
+                        currentItemFontFamily: 1,
+                    },
+                }}
+                theme={theme as Theme}
+            />
         </div>
     );
 };
