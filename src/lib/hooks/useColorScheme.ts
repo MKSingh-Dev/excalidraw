@@ -31,6 +31,7 @@ export const useColorScheme = () => {
         return () => {
             mediaQuery.removeEventListener('change', handleChange);
         };
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     useEffect(() => {
