@@ -62,7 +62,7 @@
         "husky": "^8.0.3",
         "lint-staged": "^15.2.0",
         "match-sorter": "^6.3.1",
-        "postcss": "8.4.32",
+        "postcss": "8.4.34",
         "prettier-plugin-tailwindcss": "^0.5.10",
         "tailwindcss": "3.4.0",
         "typescript": "5.3.3"
